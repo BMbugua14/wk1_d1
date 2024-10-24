@@ -23,15 +23,16 @@ if mood == "Sad":
     print("I hope your day gets better!")    
 
 #Task2
-variable_a = "Hello, World!"
-variable_b = 23
-variable_c = 3.14
-variable_d = True
+# Pi_value = 3.14
+# userAge = 25
+# user_location = "New York"
+# MAXLIMIT = 1000
 
-print(type(variable_a))
-print(type(variable_b))
-print(type(variable_c))
-print(type(variable_d))
+#Answer1
+PI_VALUE = 3.14
+user_age = 25
+user_location = "New York"
+MAX_LIMIT = 1000
 
 #Task3
 bread = 2.75
@@ -40,3 +41,9 @@ jelly = 3.23
 
 #Answer1
 print(bread + jelly + peanut_butter)
+
+#Answer2
+initial_amount = 10000
+interest_rate = 0.07
+total_amount = initial_amount * (1 + interest_rate)
+print(f"Total amount after one year: ${total_amount:.2f}")
